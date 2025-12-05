@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.CDK" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Amazon.CDK.AWS.CodePipeline" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Amazon.CDK.AWS.CodePipeline.Actions" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Amazon.CDK.AWS.CodeBuild" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Amazon.CDK.AWS.S3" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Amazon.CDK.AWS.IAM" Version="2.0.0-alpha.0" />
+    <PackageReference Include="Constructs" Version="3.4.0" />
+  </ItemGroup>
+
+</Project>
+
